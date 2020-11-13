@@ -1,34 +1,28 @@
+@import "./song.css";
+@import "./player.css";
+@import "./library.css";
+@import "./nav.css";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 h1,
 h2,
 h3 {
-  color: rgb(54, 54, 54);
+  color: #363636;
 }
-
 body {
   font-family: "Lato", sans-serif;
 }
-
-h3,
 h4 {
   font-weight: 400;
-  color: rgb(100, 100, 100);
+  color: #646464;
 }
-
 .App {
   transition: all 0.5s ease;
 }
-
 .library-active {
   margin-left: 30%;
 }
-
-@import "./song";
-@import "./player";
-@import "./library";
-@import "./nav";

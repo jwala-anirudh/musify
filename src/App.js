@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 
 // Styling
-import "./styles/app.scss";
+import "./styles/app.css";
 
 // Components
 import Player from "./components/Player";

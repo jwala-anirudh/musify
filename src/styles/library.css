@@ -5,68 +5,59 @@
   width: 20rem;
   height: 100%;
   background: white;
-  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  box-shadow: 2px 2px 50px #ccc;
   overflow: scroll;
   transform: translate(-100%);
   transition: all 0.5s ease;
   opacity: 0;
-  h2 {
-    padding: 2rem;
-  }
 }
-
+.library h2 {
+  padding: 2rem;
+}
 .library-song {
   display: flex;
   align-items: center;
   padding: 1rem 2rem 1rem 2rem;
   cursor: pointer;
   transition: background 0.5s ease;
-  img {
-    width: 30%;
-  }
-  &:hover {
-    background: rgb(222, 222, 255);
-  }
 }
-
+.library-song img {
+  width: 30%;
+}
+.library-song:hover {
+  background: #dedeff;
+}
 .song-description {
   padding-left: 1rem;
-  h3 {
-    font-size: 1rem;
-  }
-  h4 {
-    font-size: 0.7rem;
-  }
 }
-
+.song-description h3 {
+  font-size: 1rem;
+}
+.song-description h4 {
+  font-size: 0.7rem;
+}
 * {
   scrollbar-width: thin;
   scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
 }
-
 *::-webkit-scrollbar {
   width: 5px;
 }
-
 *::-webkit-scrollbar-track {
   background: transparents;
 }
-
 *::-webkit-scrollbar-thumb {
   background-color: rgba(155, 155, 155, 0.5);
   border-radius: 20px;
   border: transparent;
 }
-
 .selected {
-  background: rgb(185, 207, 255);
+  background: #b9cfff;
 }
-
 .active-library {
   transform: translate(0%);
   opacity: 1;
 }
-
 @media screen and (max-width: 768px) {
   .library {
     width: 100%;
