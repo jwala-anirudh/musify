@@ -17,7 +17,7 @@ function chillHop() {
       audio: deathBed,
       color: ["#ADA5CE", "#213045"],
       id: uuidv4(),
-      active: false,
+      active: true,
     },
     {
       name: "Dynamite",
@@ -27,7 +27,7 @@ function chillHop() {
       audio: dynamite,
       color: ["#FBE2E6", "#DD5B8C"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Mood",
